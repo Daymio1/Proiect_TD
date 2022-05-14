@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Daymio1/Proiect_TD/issues"
   },
-  "homepage": "https://github.com/Daymio1/Proiect_TD#readme"
+  "homepage": "https://github.com/Daymio1/Proiect_TD#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
 }
