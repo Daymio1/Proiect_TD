@@ -1,0 +1,281 @@
+.datePersonale {
+    position: relative;
+    width: 300px;
+    height: 50%;
+    margin-top: 50%;
+
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+}
+.situatieScolara {
+    position: relative;
+    width: 300px;
+    height: 50%;
+    margin-top: 50%;
+
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+}
+.situatieScolaraClick {
+    color: #ffffff;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 48%;
+    /*margin-left: 10%;*/
+    border-left: 5px solid white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    transform: scale(1.1);
+}
+
+
+.datePersonaleClick {
+    color: #ffffff;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 45%;
+    /*margin-left: 10%;*/
+    border-left: 5px solid white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    transform: scale(1.1);
+}
+
+.navBar {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: rgba(187, 24, 29, 0.95);
+}
+
+.rectangleLogin {
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.47);
+    box-shadow: inset -2px -2px 0px rgba(0, 0, 0, 0.2), inset 2px 2px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 20px;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    right: 30%;
+}
+
+.linkDash {
+    text-decoration: none;
+    color: #D1D5DB;
+}
+.linkDash:hover {
+    text-decoration: none;
+    color: #D1D5DB;
+}
+
+.link {
+    color: #D1D5DB;}
+.link:hover {
+    color: #0066ff
+}
+.row {
+    margin-bottom: 3px;
+}
+.rectangleRegister {
+    min-width: 300px;
+    min-height: 600px;
+    max-height: 600px;
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.47);
+    box-shadow: inset -2px -2px 0px rgba(0, 0, 0, 0.2), inset 2px 2px 0px rgba(14, 14, 14, 0.2);
+    border-radius: 20px;
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 60%;
+    right: 10%;
+}
+.positionLoginContainer{
+    position: absolute;
+    top: 25%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+}
+.positionRegisterContainer{
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    right: 5%;
+}
+
+.bg {
+    background-image: url("background.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logoLoginRectangle{
+    min-width: 10%;
+    min-height: 10%;
+    margin-bottom: 5%;
+}
+
+.labelLogin{
+    /*font-family: 'Impact';*/
+    /*font-style: normal;*/
+    /*font-weight:100;*/
+    /*font-size: 21px;*/
+    /*color: #000000;*/
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+
+    color: #ffffff;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: .30rem 0.1rem;
+    text-align: left;
+}
+
+
+.labelRegister{
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight:100;
+    font-size: 17px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textLink{
+    color: #D1D5DB;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .80rem 1rem;
+    text-align: left;
+}
+.btnLogInPosition {
+    margin-top: 2rem;
+    position: relative;
+    left: 25%;
+    right: 25%;
+}
+.buttonLogin{
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    justify-content: center;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    width: 50%;
+
+}
+
+.buttonSignin {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    top: 85%;
+    bottom: 5%;
+    left: 35%;
+    right: 35%;
+}
+
+.buttonNext{
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    justify-content: center;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    position: absolute;
+    left: 35%;
+    right: 35%;
+}
+
+.centerButton{
+    text-align: center;
+    margin: auto;
+    display: grid;
+}
+
+.paddingErrorMsg {
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -7,6 +7,8 @@ const cookieParser = require('cookie-parser');
 const app=express();
 app.use(express.json())
 
+
+//app.use(credentials);
 app.use((req,res, next)=>{
     res.setHeader('Access-Control-Allow-Origin',"http://localhost:5000");
     res.setHeader('Access-Control-Allow-Headers',"*");
