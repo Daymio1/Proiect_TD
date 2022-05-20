@@ -37,10 +37,7 @@ const Register = () => {
 
         console.log(firstName, lastName, username, pwd, email, pwdConfirm);
 
-        if (pwd !== pwdConfirm) {
-            setErrMsg('Passwords did not match!');
-            return;
-        }
+
         try {
             const response = await axios.post(REGISTER_URL,
                 JSON.stringify({firstName, lastName, email, pwd, username}),

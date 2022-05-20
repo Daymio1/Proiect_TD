@@ -25,8 +25,8 @@ app.use('/register', require('./routes/register'))
 app.use('/refresh', require('./routes/refresh'))
 app.use('/logout', require('./routes/logout'))
 
-//app.use(verifyJWT);
-app.use('/insertUser', require('./routes/userInsert'))
+app.use(verifyJWT);
+app.use('/changePassword', require('./routes/changePassword'))
 
 
 app.listen({port: 5000}, async () => {
