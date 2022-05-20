@@ -1,0 +1,123 @@
+
+.logo {
+    color: aqua;
+    width: 5px;
+}
+
+.sidenav {
+    width: 240px;
+    background: #14192d;
+    position: absolute;
+    height: 100vh;
+    left: -100%;
+    padding: 10px 30px;
+    transition: all 1s;
+}
+
+.sidenav.active {
+    left: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a:hover,
+ul li a.active {
+    background: #14192d;
+}
+
+.buttonLogout {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    top: 85%;
+    bottom: 5%;
+    left: 35%;
+    right: 35%;
+}
+.sidebar {
+    height: 100%;
+    width: 300px;
+    background-color: #14192d;
+}
+
+.SidebarList {
+    height: auto;
+    padding: 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+.SidebarList .roow {
+    width: 60%;
+    height: 70px;
+    /*border: 1px solid black;*/
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SidebarList #active {
+    border-left: 5px solid white;
+    background-color: #a6161a;
+}
+
+.SidebarList .roow:hover {
+    cursor: pointer;
+    background-color: #1d2542;
+}
+
+.roow #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+.roow #title {
+    flex: 70%;
+}
+.line {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-top: 2px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}

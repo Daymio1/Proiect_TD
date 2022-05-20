@@ -8,11 +8,12 @@
       <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/registerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/registerController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/userInsertController.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/userInsert.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,7 +51,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Proiect II/SINU-2.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/test" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
@@ -72,7 +75,12 @@
       <workItem from="1652788762987" duration="2478000" />
       <workItem from="1652797461052" duration="2433000" />
       <workItem from="1652819603229" duration="294000" />
-      <workItem from="1652819918063" duration="3409000" />
+      <workItem from="1652819918063" duration="3719000" />
+      <workItem from="1652866616708" duration="342000" />
+      <workItem from="1652891070242" duration="9179000" />
+      <workItem from="1652908588870" duration="10070000" />
+      <workItem from="1652958778299" duration="11312000" />
+      <workItem from="1652993526017" duration="28000" />
     </task>
     <servers />
   </component>

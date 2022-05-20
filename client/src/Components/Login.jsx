@@ -10,7 +10,7 @@ const LOGIN_URL = '/login';
 const Login = () => {
     const { setAuth } = useAuth();
 
-    //const navigate = useNavigate();
+    const navigate = useNavigate();
     // const location = useLocation();
     // const from = location.state?.from?.pathname || "/dashboard";
 
@@ -46,10 +46,8 @@ const Login = () => {
             );
             console.log(response);
             const accessToken = response?.data?.accessToken;
-            //const role = response?.data?.role;
             localStorage.setItem("token", "Bearer: "+ accessToken)
             localStorage.setItem("username", username)
-            //localStorage.setItem("role", role)
             localStorage.setItem("isAuth", "true");
 
             setAuth({isAuth: true,username, pwd, accessToken})
@@ -57,7 +55,9 @@ const Login = () => {
             setUsername('');
             setPwd('');
 
-            //navigate(from, { replace: true });
+            let path
+            isAuth === true ? path = "/home" : path = "/home"
+            navigate(path, {replace: true});
 
         } catch (err) {
             if (!err?.response) {
